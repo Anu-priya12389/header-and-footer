@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <style>
+            .tot{
+                display: grid;
+                grid-template-areas: 
+                "head head head"
+                "nav main right"
+                "footer footer footer";
+                grid-template-columns: 2fr 5fr 2fr;
+                gap: 10px;
+                padding: 9px;
+
+                
+            }
+            .head{
+                grid-area: head;
+                background-color: rgb(196, 209, 132);
+                padding: 10px;
+                text-align: center;
+                font-size: 35px;
+                font-weight: bold;
+            }
+            .nav{
+                grid-area: nav;
+                background-color: rgb(132, 176, 209);
+                padding: 10px;
+
+            }
+            .main{
+                grid-area: main;
+                background-color:cadetblue;
+                padding: 10px;
+                overflow-y: auto;
+                font-size: 25;
+            }
+            .right{
+                grid-area: right;
+                background-color: rgb(190, 116, 137);
+                padding: 10px;
+            }
+            .footer{
+                grid-area: footer;
+                background-color: rgb(200, 139, 113);
+                padding: 10px;
+                text-align: center;
+                font-size: 25;
+            }
+            a{
+                color: rgb(14, 13, 13);
+                text-decoration: none;
+                display: block;
+                margin:10px;
+                font-size: 20;
+            }
+            h3{
+                margin-top: 30px;
+            }
+            .tab{
+                font-size:25 ;
+            }
+            .cont{
+                font-size: 25;
+            }
+            .hobbies{
+                font-size: 25;
+            }
+             li{
+                font-size: 20;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tot">
+            <div class="head">PORTFOLIO</div>
+            <div class="nav">
+                <h3 class="cont">Content</h3>
+                <a href="#section 1">Introduction</a>
+                <a href="#section 2">Picture</a>
+                <a href="#section 3">Skills</a>
+                <a href="#section 4">Projects</a>
+                <a href="#section 5">Contact</a>
+
+            </div>
+
+            <div class="main">
+                <h3 id="section 1">Introduction</h3>
+            
+            <p class="para"> 
+
+"Hello, I'm Anu Priya, currently pursuing my Bachelor of Computer Applications (BCA) at Kamaraj College, Face Prep Campus. I completed my secondary schooling at St. Joseph School, where I developed strong communication skills that have been invaluable throughout my academic journey. I later attended Government Girls Higher Secondary School for my higher secondary education, where I excelled academically, securing 1st marks in Tamil, English, and Computer Science in my 12th grade..
+
+During my 11th grade, I also held the prestigious position of President of the English Literary Association, which further honed my leadership and communication skills. Beyond academics, I've participated in two symposiums, receiving certificates for debugging codes, and showcased my writing skills by participating in the Indian Constitution essay writing competition. The TCS ion courses have been particularly beneficial for me, offering a wide range of courses that have helped me develop essential skills such as interview skills, presentation skills, and effective communication skills.
+
+Notably, the effective communication course taught me how to interact with people with disabilities, including visual, hearing, and speaking impairments. I learned to communicate using actions and gestures, allowing me to better understand and connect with individuals who are differently abled. This experience has been profoundly enriching and has broadened my perspective on communication.
+
+I've completed 10 certifications from TCS ion, in addition to 36 LinkedIn certifications and 4 Microsoft certifications. I'm proud to have been part of the Smart India Hackathon (SIH) team.
+
+Throughout my journey, I've developed skills in teamwork, communication, problem-solving, and programming. I'm excited to apply my knowledge, skills, and enthusiasm to real-world challenges and contribute to a dynamic organization. My career aspiration is to become a software engineer, leveraging my technical skills to drive innovation and growth."</p>
+                
+                <h3 id="section 2">Picture</h3>
+            <div class="img">
+                <img src = "saree.jpg" width="400px " height="500px">
+            </div>
+            <p class="imgpara">This is me in my natural habitat-with a smile and a hint of curiosity</p>
+
+                <h3 id="section 3"></h3>
+            <h2 class="skill">Skills</h2>
+            <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Problem-solving</li>
+                <li>Leadership</li>
+                <li>Programming</li>
+            </ul>
+
+            <h3 id="section 4"></h3>
+            <h2 class="proj">Projects</h2>
+            <table class="tab" border="3">
+                <tr>
+                    <th>Project name</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Landing Page with Bootstrap</td>
+                    <td>A landing page contains a variety of data, graphics, and even movies. You can begin with a simple text and image-based landing page, using inspiration from the various landing page ideas available on the internet. You may spice it up by displaying the user's current time and name from local storage. Bootstrap can be used to recreate some of your favourite landing pages.</td>
+                    <td><a href="https://codepen.io/htschmed/pen/RMEEzM">Bootstrap</a></td>
+                </tr>
+                <tr>
+                    <td>Calculator</td>
+                    <td>A Calculator project that includes basic arithmetic operations like addition, subtraction, multiplication, and division will be quite useful to a novice who knows HTML, CSS, and JavaScript. You'll need to create a user interface with data entry buttons and a display screen to show the findings</td> 
+                    <td><a href="https://github.com/abarna-codespot/A-simple-Calculator">Calculator</a></td>             
+                </tr>
+                <tr>
+                    <td>Notes App</td>
+                    <td>You can create a simple notes app to keep track of your thoughts. You can use Vanilla JavaScript or a framework; the choice is yours. You can also utilize cookies or local storage to preserve notes in the user's browser so that they remain accessible even when the browser is closed.</td>
+                    <td><a href="https://github.com/0xb0b1/notes-app">NotesApp</a></td>
+                </tr>
+            </table>
+
+            <h3 id="section 5"></h3>
+            <h2 class="profile">Here is my Profiles</h2>
+            <h3 class="connect">Connect on LinkedIn</h3><br>
+            <a href="www.linkedin.com/in/anupriya-v-a28210324">LinkedIn</a><br>
+            <h3 class="insta">Follow on instagram</h3><br>
+            <a href="https://www.instagram.com/__anx__200x__/">Instagram</a>
+        </div>
+
+        <div class="right">
+            <h3 class="Hobbies">My Hobbies</h3>
+            <ul>
+                <li>Listen Music</li>
+                <li>Spent Time With My Family</li>
+                <li>Reading Books</li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            &copy; 2025 Web Design Lab. All rights Reserved!
+        </footer>
+        </div>
+    </body>
+</html>
